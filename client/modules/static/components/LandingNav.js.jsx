@@ -75,6 +75,9 @@ class LandingNav extends Base {
             <div className="yt-row center-vert right">
               <ul className="navigation">
                 <li>
+                  <NavLink to="/bakeries" activeClassName="active">Bakeries</NavLink>
+                </li>
+                <li>
                   <NavLink to="/products" activeClassName="active">Products</NavLink>
                 </li>
                 { user.username ?

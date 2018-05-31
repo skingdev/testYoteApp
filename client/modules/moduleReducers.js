@@ -6,3 +6,6 @@
 
 export { default as product } from './product/productReducers.js';
 export { default as user } from './user/userReducers.js';
+
+export { default as shirt } from './shirt/shirtReducers.js';
+export { default as bakery } from './bakery/bakeryReducers.js';

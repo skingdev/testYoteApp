@@ -1,0 +1,25 @@
+/**
+ * Uses SASS compiled to global stylesheet, yote.css
+ * Any styles specific to the Bakery module that you ALSO want globally
+ * available should live here.
+ */
+
+ .bakery-list-container {
+  border: 1px solid lightgray;
+  border-radius: 3px;
+ }
+
+.bakery-list {
+  :nth-child(2n) {
+    background-color: lighten(#007BA4, 60%);
+  }
+  li {
+    padding-left: 5px;
+    background-color: none;
+  }
+
+  list-style: none;
+  padding: 10px;
+
+
+}
